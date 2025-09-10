@@ -1,4 +1,4 @@
-# Stage Scan Controller (Python + Tkin
+# Automatic scanner for light-sheet microscopy
 
 A simple GUI to automate simultaneous tiled scanning by a stage controller and triggerring by a function generator.  
 Intended for microscope setups such as single-objective light-sheet microscopy and open-top light-sheet microscopy.  
