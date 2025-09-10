@@ -1,13 +1,14 @@
 # Stage Scan Controller (Python + Tkin
 
-A minimal GUI to automate tiled stage scans while driving a function generator for trigger output.  
-Intended for microscope setups where a motorized stage is moved in X–Y tiles and a Rigol DG800-series generator outputs pulses during each Y scan.
+A simple GUI to automate simultaneous tiled scanning by a stage controller and triggerring by a function generator.  
+Intended for microscope setups such as single-objective light-sheet microscopy and open-top light-sheet microscopy.  
+According to the set parameters, the function generator sends a trigger to the camera to capture images while the stage translocate the sample.
 
 ## Hardware  
 - Function generator for triggering: Rigol DG800-series
-- - Connecting via USB
+  - Connecting via USB
 - Stage controller: OptoSigma SHOT-702
-- - Connecting via COM port
+  - Connecting via COM port
 
 ## Features
 - Set scan speeds (X/Y), Y travel distance, trigger frequency, number of X tiles, and X step.
